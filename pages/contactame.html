@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galatea Skin - Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"><img src="../assets/img/logo.png" alt="logo-galatea" class="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./tratamientos.html">Tratamientos</a></li>
+                <li><a href="./quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="./promociones.html">Promociones</a></li>
+                <li><a href="#" class="active">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contactame">
+        <h2>Gracias por contactarte con nosotros!</h2>
+        <div class="main-form">
+            <div class="me-direccion">
+                <figure><img src="../assets/img/img-nosotros.png" alt="nosotros"></figure>
+                <p>Teléfono: 261-5 012345 <br> Dirección: Av. Siempre viva 742
+                </p>
+            </div>
+            <div>
+                <form action="">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" required placeholder="Nombre" class="input-text"><br>
+
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" required placeholder="E-mail" class="input-text"><br>
+
+                    <label for="tel"></label>
+                    <input type="tel" name="tel" id="tel" placeholder="Teléfono" class="input-text"><br>
+
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" id="mensaje" cols="" rows="" placeholder="Mensaje" class="input-text"></textarea><br>
+
+                    <input type="checkbox" name="terminos" id="terminos" required >
+                    <label for="terminos">Acepto <span class="politicas">Políticas de privacidad</span></label><br>
+
+                    <input type="checkbox" name="newsletter" id="newsletter" >
+                    <label for="newsletter">Quiero recibir info en mi e-mail</label> <br>
+
+                    <label for="send" class="send-button">Enviar</label>
+                    <input type="submit" value="" id="send" hidden>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <form action="" >
+                <label for="email-footer"></label>
+                <input type="email" id="email-footer" class="form-footer">
+                <label for="send-button-footer" class="send-button-footer">Suscribirme</label>
+                <button type="submit" id="send-button-footer" hidden></button>
+            </form>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="../assets/img/facebook.png"
+                            alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="../assets/img/instagram.png"
+                            alt="instragram"></a></li>
+                <li><a href="https://wa.me/123456?text=Hola,%20estoy%20interesado%20en%20tus%20servicios,%20necesito.."
+                        target="_blank"><img src="../assets/img/wsp.png" alt="whats-up"></a></li>
+            </ul>
+        </div>
+        <div>
+            <p>Todos los derechos reservados Galatea Skin ©</p>
+        </div>
+    </footer>
+</body>
+
+</html>
